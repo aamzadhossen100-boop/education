@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f17"/>
+      <stop offset="50%" stop-color="#121824"/>
+      <stop offset="100%" stop-color="#09131f"/>
+    </linearGradient>
+    <linearGradient id="emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  
+  <!-- Grid overlay -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1f2937" stroke-width="0.5" stroke-opacity="0.4"/>
+  </pattern>
+  <rect width="1280" height="720" fill="url(#grid)"/>
+
+  <!-- Glowing circle behind icon -->
+  <circle cx="640" cy="320" r="110" fill="#10b981" fill-opacity="0.12" filter="blur(20px)"/>
+
+  <!-- Play Circle Badge -->
+  <circle cx="640" cy="320" r="64" fill="url(#emerald)"/>
+  <polygon points="630,295 662,320 630,345" fill="#ffffff"/>
+
+  <!-- Text -->
+  <text x="640" y="440" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">
+    Your Learning Lesson
+  </text>
+  <text x="640" y="480" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="500" fill="#94a3b8" text-anchor="middle">
+    LearnHub • High Definition Video Lesson
+  </text>
+</svg>
